@@ -1,0 +1,96 @@
+body{
+    background-color:#DADADA !important;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Cadastro-section, .informacoes-section {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.Cadastro-section, h2{
+    text-align: left;
+    font-size: 50px !important;   
+}
+.Cadastro-section, p{
+    font-size: 28px;
+    text-align: justify;
+}
+
+.Cadastro-section{
+    background-color: #54B5EC;
+    color: white;
+    text-align: center;
+    width: 30%;
+    height: 590px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.Botao-de-Cadastro{
+    background-color: #54B5EC;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Botao-de-Cadastro:hover{
+    background-color: #249fc5;
+}
+.informacoes-section{
+    background-color: #E6E6E6;
+    color: black;
+    padding: 30px;
+    width: 980px;
+    height: 590px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.texto-login{
+    font-size: 50px;
+    color: #54B5EC;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.informacoes-section form input{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.informacoes-section form select{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.informacoes-section form button{
+    background-color: #54B5EC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 40%;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 20%;
+}
