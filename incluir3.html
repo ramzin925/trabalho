@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submenu Interativo</title>
-    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="incluir-fim.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -29,7 +29,7 @@
             <li>
                 <a href="#" class="menu-item submenu-toggle"><i class="fas fa-file-medical"></i> Prontuário <i class="fa fa-angle-down first" style="padding-left: 80px;"></i></a>
                 <ul class="submenu">
-                    <li><a href="listagem-de-clientes.html" class="submenu-item">Pacientes</a></li>
+                    <li><a href="#" class="submenu-item">Pacientes</a></li>
                 </ul>
             </li>
             <li><a href="#" class="menu-item"><i class="fas fa-calendar-alt"></i> Agendamento</a></li>
@@ -42,7 +42,33 @@
           <a class="logout"><i class="fa fa-close"></i>Sair</a>
         </div>
     </nav>
-
+<br>
+<div class="form-container">
+    <h1 class="incluir">Incluir Paciente</h1>
+    <form>
+        <div class="form-sections">
+            <div class="section geral">
+                <h2>Geral</h2>
+                <div class="input-group">
+                    <input type="text" id="nome" name="nome" placeholder="Nome" placheholder="Convenio">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="Convenio" name="Convenio"  placeholder="N°carteirinha">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="nome" name="nome" placeholder="Acomodacao">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="nome" name="nome" placeholder="Plano">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="nome" name="nome" placeholder="Validade">
+                </div>
+            </div>
+        </div>
+        <button  href="incluir-fim.html" class="btn-proximo" href="incluir-fim.html">Próximo</button>
+    </form>
+</div>
 
 </body>
 </html>

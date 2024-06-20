@@ -145,8 +145,102 @@ nav ul .submenu{
     background-color: #46b8da;
 }
 
-/* Estilo do conteúdo principal */
-.content {
-    flex-grow: 1;
+
+
+.container {
+    width: 90%;
+    height: 50%;
+    max-width: 1200px;
+    background-color: #fff;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.tabela {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.numero{
+    font-size: 2em;
+    margin-right: 10px;
+}
+.texto{
+    font-size:1em;
+    right: 0;
+}
+
+.add-patient-btn {
+    background-color: #00a2ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.patient-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.patient-table th, .patient-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.patient-table th {
+    background-color: #f0f0f0;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.load-more-btn {
+    background-color: #00a2ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+}
+
+.pagination label, .pagination span {
+    margin-right: 5px;
+}
+
+#items-per-page {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }

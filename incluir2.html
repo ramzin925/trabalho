@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submenu Interativo</title>
+    <link rel="stylesheet" href="incluir2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <nav class="sidebar">
+
+    <!--Perfil-->
+
+        <div class="profile-container">
+            <div class="profile-icon">
+                <i class="fa fa-user-circle-o"></i>
+            </div>
+            <div class="profile-name">Caio Coelho</div>
+        </div>
+<br>
+<br>
+
+    <!--Menu-->
+
+        <ul class="menu">
+            <li>
+                <a href="#" class="menu-item submenu-toggle"><i class="fas fa-file-medical"></i> Prontuário <i class="fa fa-angle-down first" style="padding-left: 80px;"></i></a>
+                <ul class="submenu">
+                    <li><a href="#" class="submenu-item">Pacientes</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="menu-item"><i class="fas fa-calendar-alt"></i> Agendamento</a></li>
+            <li><a href="#" class="menu-item"><i class="fas fa-info-circle"></i> Sobre</a></li>
+        </ul>
+
+    <!--Sair da Conta-->
+
+        <div class="logout">
+          <a class="logout"><i class="fa fa-close"></i>Sair</a>
+        </div>
+    </nav>
+<br>
+<div class="form-container">
+    <h1>Atendimento</h1>
+    <form>
+        <div class="form-sections">
+            <div class="section left-section">
+                <div class="input-group">
+                    <input type="text" id="paciente" name="paciente" placeholder="CPF">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="paciente" name="paciente" placeholder="Endereço">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="paciente" name="paciente" placeholder="Complemento">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="paciente" name="paciente" placeholder="Cidade">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="paciente" name="paciente" placeholder="País">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="paciente" name="paciente" placeholder="Número">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="paciente" name="paciente" placeholder="Bairro">
+                </div>
+                <div class="input-group">
+                    <select placeholder="Estado">
+                        <option>Estado</option>
+                        <option>Estado</option>
+                      </select>
+                </div>
+        </div>
+        <button href="" class="btn-concluir" href="incluir3.html">Próximo</button>
+    </form>
+</div>
+
+</body>
+</html>
